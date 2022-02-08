@@ -4,7 +4,7 @@ Example of a Migration-Based deployment that deploys to an Azure Synapse serverl
 
 It uses a yaml pipeline, which in GitHub is called a workflow. You can find this file is in the '/.github/workflows' folder. 
 
-For this pipeline you also need to setup the below encrypted secrets (https://bit.ly/3nd0Jj8) \
+For this pipeline you also need to setup the below encrypted secrets (https://bit.ly/3nd0Jj8) 
   > sqlinstance - Your Serverless SQL Pool endpoint (the one that ends with -ondemand)\
   database - The database in the SQL Pool you want the update deployed to. Note it has to exist BEFORE this the scripts are run.\
   UserName - User name to connect to the Serverless SQL Pool endpoint, try and keep this secret\
