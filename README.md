@@ -2,7 +2,9 @@
 
 Example of a Migration-Based deployment that deploys to an Azure Synapse serverless SQL Pool using GitHub Actions. Based on a blog post I wrote called 'CI/CD for serverless SQL pools using GitHub Actions' (https://bit.ly/31sAPQx).
 
-It uses a yaml pipeline, which in GitHub is called a workflow. You can find this file is in the '/.github/workflows' folder. 
+Plus, it contains a template based on another post I wrote called 'Keep your Azure Synapse secrets secret in GitHub' (https://www.kevinrchant.com/2022/05/18/keep-your-azure-synapse-secrets-secret-in-github/). 
+
+It contains two yaml pipelines, which in GitHub are called a workflows. You can find these files in the '/.github/workflows' folder. 
 
 For this pipeline you also need to setup the below encrypted secrets (https://bit.ly/3nd0Jj8) 
   > sqlinstance - Your Serverless SQL Pool endpoint (the one that ends with -ondemand)\
