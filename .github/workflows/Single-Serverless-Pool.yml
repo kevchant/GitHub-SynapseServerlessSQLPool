@@ -30,7 +30,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       # Note that I am using latest version of action
-      - uses: actions/checkout@v2.4.0 
+      - uses: actions/checkout@v3 
 
       # install dbops PowerShell module
       - name: Install dbops module
