@@ -4,6 +4,8 @@ Example of a Migration-Based deployment that deploys to an Azure Synapse serverl
 
 Plus, it contains a template based on another post I wrote called 'Keep your Azure Synapse secrets secret in GitHub' (https://www.kevinrchant.com/2022/05/18/keep-your-azure-synapse-secrets-secret-in-github/). 
 
+You can see this template in the [video for the November 2022 edition of the Azure Synapse Analytics and MVP series](https://www.youtube.com/watch?v=87gNrueVRFU). Click on the link to view.
+
 A brief overview is below. However, there is also a wiki for this project (https://github.com/kevchant/GitHub-SynapseServerlessSQLPool/wiki).
 
 It contains two yaml pipelines, which in GitHub are called a workflows. You can find these files in the '/.github/workflows' folder. 
